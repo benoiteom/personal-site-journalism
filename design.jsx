@@ -32,7 +32,7 @@ export default class Design extends Component {
                     Acquiring, or “copping”, these shoes, however, is no simple feat. With the promise of large profits, many
                     will employ methods that could be considered borderline illegal. The most common way is using bots, or
                     pieces of software, to checkout these shoes incredibly fast, sometimes within milliseconds.<br /><br />
-                    Today, I’m talking to Cedric, who’s been reselling sneakers for a little over a year. She’s learned a lot,
+                    Today, I’m talking to Cedric, who’s been reselling sneakers for a little over a year. He’s learned a lot,
                     gotten much more consistent at copping, and even recently purchased a bot in hopes of increasing her
                     profits.<br /><br />
                         <u>Interviewer</u>: Tell me about how it all started.<br /><br />
