@@ -1,0 +1,93 @@
+.topleft {
+    width: 0;
+    height: 0;
+    border-top: 400px solid transparent;
+    border-bottom: 400px solid transparent;
+    border-right: 400px solid black;
+    transform: rotate(45deg);
+    position: absolute;
+    top: calc(100vh - 208px);
+    left: 0;
+}
+
+.down {
+    width: 0; 
+    height: 0; 
+    border-left: 400px solid transparent;
+    border-right: 400px solid transparent;
+    border-top: 400px solid black;
+    position: absolute;
+    top: 100vh;
+    right: 120px;
+}
+
+.left {
+    width: 0; 
+    height: 0; 
+    border-top: 400px solid transparent;
+    border-bottom: 400px solid transparent;
+    border-right: 400px solid black;
+    position: absolute;
+    top: 150vh;
+    transform: translateY(-50%);
+    right: 0px;
+}
+
+.up {
+    width: 0; 
+    height: 0; 
+    border-left: 400px solid transparent;
+    border-right: 400px solid transparent;
+    border-bottom: 400px solid black;
+    position: absolute;
+    bottom: -100vh;
+    right: 120px;
+}
+
+#teneez {
+    overflow: hidden;
+    transition: 1s all;    
+    border-top: 2px solid black;
+}
+
+#musrover {
+    overflow: hidden;
+    transition: 1s all;
+    border-top: 2px solid black;
+}
+
+#personalsite {
+    overflow: hidden;
+}
+
+@media only screen and (max-width: 1300px) {
+    .down {
+        display: none;
+    }
+    .up {
+        display: none;
+    }
+}
+
+
+@media only screen and (max-width: 750px) {
+    .left {
+        border-top: 200px solid transparent;
+        border-bottom: 200px solid transparent;
+        border-right: 200px solid black;
+    }
+    .topleft {
+        border-top: 200px solid transparent;
+        border-bottom: 200px solid transparent;
+        border-right: 200px solid black;
+        top: calc(100vh - 50px);
+        left: 10px;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .topleft {
+        top: calc(100vh - 95px);
+        left: 5px;
+    }
+}

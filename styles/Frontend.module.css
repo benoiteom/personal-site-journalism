@@ -1,0 +1,34 @@
+#teneez {
+    overflow: hidden;
+    transition: 1s all;    
+}
+
+#musrover {
+    border-top: 2px solid black;
+    overflow: hidden;
+    transition: 1s all;
+}
+
+#personalsite {
+    overflow: hidden;
+    border-top: 2px solid black;
+}
+
+.monitor {
+    position: absolute;
+    top: calc(100vh + 100px);
+    right: 0;
+    width: 50%;
+    height: calc(100vh - 200px);
+    background-color: black;
+    z-index: 0;
+}
+
+@media not all and (min-resolution:.001dpcm)
+{ @supports (-webkit-appearance:none) {
+	@media only screen and (max-width: 575px) {
+		.monitor {
+            top: calc(100vh + 140px);
+        }        
+	}
+}}

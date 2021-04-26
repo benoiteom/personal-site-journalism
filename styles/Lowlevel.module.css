@@ -1,0 +1,47 @@
+.top {
+    width: 17%;
+    height: 100vh;
+    position: absolute;
+    top: 100vh;
+    left: 50%;
+    background-color: black;
+}
+
+#os {
+    overflow: hidden;
+    transition: 1s all;    
+}
+
+#mp {
+    overflow: hidden;
+    transition: 1s all;
+    border-top: 2px solid black;
+}
+
+#parallel {
+    overflow: hidden;
+    border-top: 2px solid black;
+    transition: 1s all;
+}
+
+.monitor {
+    position: absolute;
+    top: 100vh;
+    right: 0;
+    width: 17%;
+    height: 100vh;
+    background-color: black;
+    z-index: 0;
+}
+
+@media only screen and (max-width: 770px) {
+    .top {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .monitor {
+        display: none;
+    }
+}
